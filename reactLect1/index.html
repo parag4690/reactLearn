@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>React Lecture 1</title>
+  </head>
+  <body>
+    <h1>before root</h1>
+    <div id="root">
+      <!-- everything will be replace by react inside this root as react is rendering in this root , react is a library it 
+        can works on a small elment on page also -->
+        <h1>replaced</h1>
+    </div>
+    <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script>
+
+    <!-- <script>
+        // const heading = React.create
+        const heading = React.createElement("h1" , {} , "hello world ");
+        const root = ReactDOM.createRoot(document.getElementById("root"));
+        root.render(heading);
+    </script> -->
+
+    <script src="app3.js"></script>
+
+    <!-- write this below these two script ( order of this file matters ) -->
+  </body>
+</html>
